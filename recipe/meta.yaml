@@ -1,4 +1,4 @@
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/jqr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/jqr/jqr_{{ version }}.tar.gz
-  sha256: b38156228eba7597a1f3ce725264c693b1890eacb93e3638ad25584e179678ec
+  sha256: 49bf4ea9c1fa7895f8066f51ec398020b93218b73752917dc390c6d625fb21a9
 
 build:
   merge_build_host: true  # [win]
