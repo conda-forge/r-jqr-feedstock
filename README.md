@@ -3,6 +3,7 @@ About r-jqr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-jqr-feedstock/blob/main/LICENSE.txt)
 
+
 About r-jqr
 -----------
 
@@ -11,6 +12,7 @@ Home: https://github.com/ropensci/jqr
 Package license: MIT
 
 Summary: Client for 'jq', a 'JSON' processor (<https://stedolan.github.io/jq/>),  written in C. 'jq' allows the following with 'JSON' data: index into, parse,  do calculations, cut up and filter, change key names and values, perform  conditionals and comparisons, and more.
+
 About r-jqr
 -----------
 
